@@ -1,0 +1,5 @@
+{{myInputData}}
+<p [innerHTML]="myInputData"></p>
+<p>Output Decorator</p>
+<input type="text" id="message" #messageRef >
+<button (click) = "sendValuestoParent(messageRef.value)">Check</button>
